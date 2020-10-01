@@ -1,0 +1,19 @@
+@keyframes goodAnswerAnimation {
+    from {background-color: yellow;}
+    to {background-color: green;}
+}
+@keyframes wrongAnswerAnimation {
+    from {background-color: yellow;}
+    to {background-color: red;}
+}
+@keyframes newQuestion {
+  from {margin-left: 800px;}
+  to{margin-left:0px;}
+}
+body{
+  background-color: black;
+  font: 1em sans-serif;
+}
+div {
+  background-color: white;
+}
